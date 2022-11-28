@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Speed</title>
+    <style>
+        html{
+            background-color: aqua;
+        }
+        #Main{
+            width:75%;
+            border:solid 1px;
+            margin:0 auto;
+        } 
+        h1{
+            text-align: center;
+        }
+        input{
+            width: 25%;
+        }
+        input,button{
+            display: block;
+            margin: 5% auto;
+            padding: 5px;
+            font-weight: bolder;
+        }
+        button{
+            background-color: red;
+            border: none;
+            padding: 10px;
+            font-size: 1.2em;
+        }
+        #Message{
+            text-align: center;
+            font-size: 2em;
+        }
+    </style>
+</head>
+<body>
+    <div id="Main">
+        <h1>Speed Detector</h1>
+        <div>
+            <input placeholder="input Speed" min="0" type="number" name="" id="Speed">
+            <button onclick="handleClick(event)">Speed</button>
+            <div id="Message">  OK</div>
+        </div>
+    </div>
+    <script src="./Toy2.js"></script>
+</body>
+</html>

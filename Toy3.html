@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div id="Salary">
+        <h1>Salary Calculator</h1>
+      <input id="basic" type="number" placeholder="basic salary" min="0" onchange="handleSalary(event)">  
+      <input class="allowances" type="number" placeholder="allowance 1" min="0"onchange="handleSalary(event)">
+      <input class="allowances"type="number" placeholder="allowance 2" min="0"onchange="handleSalary(event)"> 
+      <input class="allowances"type="number" placeholder="allowance 3" min="0"onchange="handleSalary(event)"> 
+      <input class="allowances"type="number" placeholder="allowance 4" min="0"onchange="handleSalary(event)">
+    <div>
+        <div>NHIF <span id="nhif"></span></div>
+        <div>NSSF <span id="nssf"></span></div>
+        <div>PAYE <span  id="paye"></span></div>
+        <div>Taxable income <span  id="taxablePay"></span></div>
+        <div>Net pay <span id="NetPay"></span></div>
+    </div>
+</div>
+<script src="./Toy3.js"></script>
+
+    
+</body>
+</html>
